@@ -1,12 +1,12 @@
 import React from "react";
-import AppBar from "material-ui/AppBar";
-import Toolbar from "material-ui/Toolbar";
-import Typography from "material-ui/Typography";
+import { AppBar, Toolbar, Typography } from "@material-ui/core";
 
 export default (props) => (
   <AppBar position="static">
     <Toolbar>
-      <Typography variant="headline">Exercises database</Typography>
+      <Typography variant="headline" color="inherit">
+        Exercises database
+      </Typography>
     </Toolbar>
   </AppBar>
 );
